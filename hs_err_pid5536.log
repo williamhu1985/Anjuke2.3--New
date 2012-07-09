@@ -1,0 +1,80 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:2923), pid=5536, tid=4412
+#  Error: ShouldNotReachHere()
+#
+# Java VM: Java HotSpot(TM) Client VM (11.0-b15 mixed mode windows-x86)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00847800):  JavaThread "Unknown thread" [_thread_in_vm, id=4412, stack(0x008e0000,0x00930000)]
+
+Stack: [0x008e0000,0x00930000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00847800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=4412, stack(0x008e0000,0x00930000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	C:\Program Files\Java\jre6\bin\javaw.exe
+0x7c920000 - 0x7c9b3000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c91e000 	C:\WINDOWS\system32\kernel32.dll
+0x77da0000 - 0x77e49000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77e50000 - 0x77ee3000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77fc0000 - 0x77fd1000 	C:\WINDOWS\system32\Secur32.dll
+0x77d10000 - 0x77da0000 	C:\WINDOWS\system32\USER32.dll
+0x77ef0000 - 0x77f39000 	C:\WINDOWS\system32\GDI32.dll
+0x76300000 - 0x7631d000 	C:\WINDOWS\system32\IMM32.DLL
+0x62c20000 - 0x62c29000 	C:\WINDOWS\system32\LPK.DLL
+0x73fa0000 - 0x7400b000 	C:\WINDOWS\system32\USP10.dll
+0x7c340000 - 0x7c396000 	C:\Program Files\Java\jre6\bin\msvcr71.dll
+0x6d800000 - 0x6da56000 	C:\Program Files\Java\jre6\bin\client\jvm.dll
+0x76b10000 - 0x76b3a000 	C:\WINDOWS\system32\WINMM.dll
+0x6d280000 - 0x6d288000 	C:\Program Files\Java\jre6\bin\hpi.dll
+0x76bc0000 - 0x76bcb000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d7b0000 - 0x6d7bc000 	C:\Program Files\Java\jre6\bin\verify.dll
+0x6d320000 - 0x6d33f000 	C:\Program Files\Java\jre6\bin\java.dll
+0x6d7f0000 - 0x6d7ff000 	C:\Program Files\Java\jre6\bin\zip.dll
+
+VM Arguments:
+jvm_args: -ea -Dfile.encoding=UTF-8 -Xbootclasspath:D:\SDK\SDK\platforms\android-8\android.jar;D:\SDK\SDK\add-ons\addon-google_apis-google_inc_-8\libs\maps.jar 
+java_command: org.testng.remote.RemoteTestNG -serport 4830 -d E:\anjukeAuto\Android-Anjuke-Test\test-output C:\DOCUME~1\WILLIA~1\LOCALS~1\Temp\testng-eclipse--1784360374\testng-customsuite.xml
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.6.0_02
+CLASSPATH=.;C:\Program Files\Java\jdk1.6.0_02\lib;C:\Program Files\Java\jdk1.6.0_02\lib\rt.jar;C:\Program Files\Java\jdk1.6.0_02\lib\tools.jar;E:\selenium2\lib\testng-6.1.1.jar;
+PATH=C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:/Program Files/Java/jre6/lib/i386;C:\Program Files\Intel\iCLS Client\;C:\Program Files\Common Files\NetSarang;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\Intel\DMIX;C:\Program Files\Common Files\GTK\2.0\bin;C:\Program Files\TortoiseSVN\bin;E:\selenium2\lib\apache-ant-1.8.2\bin;C:\Program Files\Java\jdk1.6.0_02\bin;D:\SDK\SDK\platform-tools;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\SDK\SDK\tools;C:\Documents and Settings\williamhu\×ÀÃæ\Eclipse\eclipse;
+USERNAME=Williamhu
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 3
+
+CPU:total 4 (8 cores per cpu, 2 threads per core) family 6 model 10 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, ht
+
+Memory: 4k page, physical 2097151k(1541868k free), swap 4194303k(2768912k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.0-b15) for windows-x86 JRE (1.6.0_10-rc2-b32), built on Sep 12 2008 00:52:11 by "java_re" with MS VC++ 7.1
+
+time: Wed Jun 06 13:51:26 2012
+elapsed time: 0 seconds
+
